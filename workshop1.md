@@ -17,14 +17,14 @@ omc get po
 4) ### pod logs
 omc log pod/<pod name> -n <namespace> -c <container>
 
-### SOS Report
-
+## SOS Report
+1) ### xsos commands
 xsos sos-report -py  
 xsos sos-report -my  
 xsos sos-report -dy  
 
 
-2) ### SOS COmmands
+2) ### SOS Commands
 sos_commands/openshift/  
 sos_commands/crio/  
 sos_commands/logs/  
