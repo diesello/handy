@@ -14,6 +14,8 @@ omc get events -n <namesspace>
 ### pods retarts
 omc get po
 
+omc get sc
+
 ###pod logs
 omc log pod/<pod name> -n <namespace> -c <container>
 
@@ -21,7 +23,7 @@ omc log pod/<pod name> -n <namespace> -c <container>
 
 xsos sos-report -py
 xsos sos-report -my
-xsos sos-report -gy 
+xsos sos-report -dy 
 
 
 ###
@@ -30,3 +32,8 @@ sos_commands/logs/
 
 ### kubelet.service - no pager boot
 in folder opneshift - kubelet
+
+### cat
+cat sos_commands/networkmanager/nmcli_con
+grep -i "oom-kill\|out of memory" sos_commands/kernel/dmesg_-T
+
