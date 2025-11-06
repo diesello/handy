@@ -19,20 +19,20 @@ omc log pod/<pod name> -n <namespace> -c <container>
 
 ### SOS Report
 
-xsos sos-report -py
-xsos sos-report -my
-xsos sos-report -dy 
+xsos sos-report -py  
+xsos sos-report -my  
+xsos sos-report -dy  
 
 
 2) ### SOS COmmands
-sos_commands/openshift/
-sos_commands/crio/
-sos_commands/logs/
+sos_commands/openshift/  
+sos_commands/crio/  
+sos_commands/logs/  
 
 3) ### kubelet.service - no pager boot
 in folder opneshift - kubelet
 
 4) ### cat
-cat sos_commands/networkmanager/nmcli_con
+cat sos_commands/networkmanager/nmcli_con  
 grep -i "oom-kill\|out of memory" sos_commands/kernel/dmesg_-T
 
