@@ -24,7 +24,8 @@ xsos sos-report -my
 xsos sos-report -dy 
 
 
-2) ###
+2) ### SOS COmmands
+sos_commands/openshift/
 sos_commands/crio/
 sos_commands/logs/
 
