@@ -1,3 +1,19 @@
+1) Install Homebrew - ref: brew.sh
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+ 
+2) Install xsos - ref: https://github.com/ryran/xsos
+
+sudo curl -Lo /usr/local/bin/xsos https://raw.githubusercontent.com/ryran/xsos/master/xsos
+sudo chmod +x /usr/local/bin/xsos
+
+3) Install gollowing apps
+brew install bash coreutils gawk 
+
+4) add to you .bashrc
+
+
 # Must-Gater and SOS report
 
 ## Must-Gather (example for perfomrance issues)
